@@ -21,23 +21,27 @@ button{
 button:hover{
     opacity: 90%;
 }
-.filters div{
+.filters div {
     display: inline-block;
     position: relative;
     height: 100%;
     width: 25%;
 }
-.filters h3{
+.locations h3,
+.amenities h3{
     font-weight: 600;
-    margin-left: 15px;
-    margin-bottom: 0;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
-.filters h4{
+.locations h4,
+.amenities h4{
     font-weight: 400;
     font-size: 14px;
-    margin-left: 15px;
-    margin-bottom: 0;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: auto;
 }
-.locations{
+.locations {
     border-right: 1px solid #DDDDDD;
 }
